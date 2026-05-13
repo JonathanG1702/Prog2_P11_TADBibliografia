@@ -159,3 +159,7 @@ void mostrarBibliografia(tBibliografia b) {
         act = (*act).sig;
     }
 }
+
+void cambiarTamañoBibliografia(tBibliografia &b, int nuevoTam) {
+    b.tam = nuevoTam;
+}

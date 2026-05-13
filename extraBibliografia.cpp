@@ -2,6 +2,7 @@
 #include "Libro.cpp"
 #include "usaLibro.cpp"
 #include "TADBibliografia.h"
+#include "Bibliografia.cpp"
 
 using namespace std;
 
@@ -59,4 +60,6 @@ void juntarBibliografias(tBibliografia b1, tBibliografia b2, tBibliografia &resu
         añadir(resultado, l2);
         pos2++;
     }
+
+    cambiarTamañoBibliografia(resultado, tam1 + tam2);
 }
