@@ -9,4 +9,5 @@ add_executable(P11_TADBibliografia main.cpp
         Bibliografia.cpp
         TADBibliografia.h
         TADLibro.h
-        usaBibliografia.cpp)
+        usaBibliografia.cpp
+        extraBibliografia.cpp)
