@@ -1,4 +1,5 @@
 #include <iostream>
+#include <windows.h>
 
 #include "TADLibro.h"
 #include "TADBibliografia.h"
@@ -55,6 +56,9 @@ int main() {
             case 9: cout << "Saliendo..." << endl; break;
             default: cout << "Opcion no valida." << endl;
         }
+
+        // Para ralentizar ligeramente el programa
+        Sleep(1000);
     } while (opcionElegida != 9);
 
     return 0;
