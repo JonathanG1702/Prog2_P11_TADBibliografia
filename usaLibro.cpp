@@ -1,21 +1,14 @@
-#include <cstring>
-#include <iostream>
-
-#include "TADLibro.h"
-
-using namespace std;
+#include "TADusaLibro.h"
 
 void mostrarDatosLibro(tLibro &l) {
     char ISBN[11], titulo[MAX_TITULO];
     int añoPublicacion;
 
-    obtenerISBN(l
-
-    , ISBN);
+    obtenerISBN(l, ISBN);
     obtenerTitulo(l, titulo);
     añoPublicacion = obtenerAñoPublicacion(l);
 
-    cout << ISBN << " | " << titulo << " | " << añoPublicacion << endl;
+    cout << "- " << ISBN << " | " << titulo << " | " << añoPublicacion << endl;
 }
 
 void leerDatosLibro(tLibro &l) {

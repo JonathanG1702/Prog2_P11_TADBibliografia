@@ -1,6 +1,13 @@
 #ifndef P11_TADBIBLIOGRAFIA_TADLIBRO_H
 #define P11_TADBIBLIOGRAFIA_TADLIBRO_H
 
+#include <cstring>
+#include <iostream>
+
+using namespace std;
+
+#include "TADLibro.h"
+
 const int MAX_TITULO = 100;
 
 struct tLibro {

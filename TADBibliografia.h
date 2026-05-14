@@ -1,6 +1,14 @@
 #ifndef P11_TADBIBLIOGRAFIA_TADBIBLIOGRAFIA_H
 #define P11_TADBIBLIOGRAFIA_TADBIBLIOGRAFIA_H
 
+#include <cstring>
+
+#include "TADLibro.h"
+#include "TADBibliografia.h"
+#include "TADusaLibro.h"
+
+using namespace std;
+
 struct Nodo {
     tLibro libro;
     Nodo *sig;
@@ -20,5 +28,6 @@ bool bibliografiaSinLibros(tBibliografia b);
 int numeroLibros(tBibliografia b);
 void copiarBibliografia(tBibliografia b, tBibliografia &b1);
 void mostrarBibliografia(tBibliografia b);
+void cambiarTamañoBibliografia(tBibliografia &b, int nuevoTam);
 
 #endif //P11_TADBIBLIOGRAFIA_TADBIBLIOGRAFIA_H

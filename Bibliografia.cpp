@@ -1,9 +1,4 @@
-#include <cstring>
-
 #include "TADBibliografia.h"
-#include "usaLibro.cpp"
-
-using namespace std;
 
 void iniciar(tBibliografia &b) {
     b.primero = nullptr;

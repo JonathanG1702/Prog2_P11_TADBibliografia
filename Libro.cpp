@@ -1,9 +1,4 @@
-#include <cstring>
-#include <iostream>
-
-using namespace std;
-
-#include "TADLibro.h";
+#include "TADLibro.h"
 
 void crearLibro(tLibro &l, char ISBN[], char titulo[], int añoPublicacion) {
     strcpy(l.ISBN, ISBN);
